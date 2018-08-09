@@ -1,62 +1,70 @@
 /* Intro */
-.intro {
-    display: table;
-	width: 100%;
-	height: 645px;
-	padding: 100px 0;
-    text-align: center;
-	background: url(../images/London.jpg);
-	background-color: #e9c4c8;
-	background-size: cover;
-}
-
 .introInfo {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .introH1 {
     color: white;
-    font-size: 60px;
+    font-size: 64px;
 }
 
+.intro-text {
+    margin-top: 8%;
+}
 
 /* Social Media */
-.social-media {
+footer {
+    width: 100%;
     list-style-type: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 8px;
+    right: 24px;
+    align-items: flex-end;
 }
 
 .fa-twitter, .fa-instagram, .fa-github, .fa-linkedin {
-    /* color: #e9c4c8; */
     color: white;
     font-size: 30px;
 }
 
-.fa-github {
-    position: absolute;
-    bottom: 16px;
-    left: 80px;
+/* Body */
+body {
+    background: url(../images/London.jpg);
+    display: table;
+    width: 100%;
+    height: 100%;
+	padding: 100px 0;
+    text-align: center;
+	background-color: #e9c4c8;
+    background-size: cover;
+    padding: 0;
 }
 
-.fa-instagram {
-    position: absolute;
-    bottom: 16px;
-    left: 120px;
+html {
+    height: 100%;
 }
 
-.fa-twitter {
-    position: absolute;
-    bottom: 16px;
-    left: 160px;
-}
+/* Media */
+@media screen and (max-width: 768px) {
+    .introH1 {
+        font-size: 48px;
+    }
 
-.fa-linkedin {
-    position: absolute;
-    bottom: 16px;
-    left: 200px;
-}
+    .intro-text {
+        width: 100%;
+    }
 
-ul li {
-    display: inline;
-    /* margin: 0 0 0 8px; */
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        right: 0;
+    }
+
+    .social-icon-container {
+        margin-right: 8px;
+    }
 }
