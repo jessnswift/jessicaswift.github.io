@@ -29,14 +29,50 @@
             <a class="nav-item nav-link navfont" href="about.html">About Me</a>
             <a class="nav-item nav-link navfont" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link active navfont" href="contact.html">Contact Me
-                    <span class="sr-only">(current)</span>
+                <span class="sr-only">(current)</span>
             </a>
         </div>
     </div>
 </nav>
 
 <body>
-    <h1>Contact Me!</h1>
+    <section class="content">
+        <div class="block-content">
+            <h3 class="contact-title">Get in touch</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contactForm" data-toggle="validator" class="contact-form shake" novalidate="true">
+                        <div class="form-group">
+                            <input id="name" type="text" class="form-control" name="Name" autocomplete="off" required="" data-error="Please enter your name"
+                                placeholder="* Your Name">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input id="email" type="email" class="form-control" name="email" autocomplete="off" required="" data-error="Please enter your email"
+                                placeholder="* Your Email">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-control textarea" rows="10" name="Message" required="" data-error="Please enter your message subject"
+                                placeholder="* Your Message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button id="submit" type="submit" class="btn selected disabled" style="pointer-events: all; cursor: pointer;">Send Message</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1>Contact Me:</h1>
+    <div>
+        <a href="tel:1-573-380-7622">573-380-7622</a>
+        <a href="mailto:jessica.nicole.swift@gmail.com?Subject=Hello%20again" target="_top">jessica.nicole.swift@gmail.com</a>
+        <p>Nashville, TN</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
