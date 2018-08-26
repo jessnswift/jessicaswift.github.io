@@ -2,6 +2,10 @@ body {
     background-color: #efe1e3;
 }
 
-h1 {
+.section-title {
+    color: white;
+}
+
+.dev-icons {
     color: white;
 }
