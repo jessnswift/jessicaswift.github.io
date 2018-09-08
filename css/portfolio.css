@@ -1,13 +1,5 @@
-body {
-    background-color: #efe1e3;
-}
-
-.section-title {
-    color: white;
-}
-
-.dev-icons {
-    color: white;
+.dev-icons, .section-title {
+    color: #e9c4c8;
 }
 
 .planit {
