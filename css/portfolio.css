@@ -9,3 +9,11 @@ body {
 .dev-icons {
     color: white;
 }
+
+.planit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 3px;
+  }
