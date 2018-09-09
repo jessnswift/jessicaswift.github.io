@@ -1,16 +1,20 @@
-.dev-icons, .section-title {
+ .dev-icons, .section-title {
     color: #b3747b;
     size: 50px;
 }
 
-.planit {
-    display: block;
-    padding-top: 25px;
-    width: 48%;
-    border-radius: 4px;
-    margin-left: 24px;
-  }
+.dev-icons i {
+    font-size: 1.8rem;
+}
 
+.planit {
+    /* display: block; */
+    /* padding-top: 25px; */
+    /* width: 48%; */
+    border-radius: 4px;
+    /* margin-left: 24px; */
+  }
+/*
 .planit-par {
     text-align: center;
     padding-top: 5px;
@@ -18,9 +22,18 @@
     margin-right: 24px;
 }
 
+
+*/
+
+
+.img-container-portfolio{
+    padding: 16px;
+}
+.planit-detail-container {
+    padding: 24px;
+}
 .planit-title {
     text-align: center;
-    padding-top: 50px;
     color: #7b6565;
     margin-right: 24px;
 }
