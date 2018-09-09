@@ -2,15 +2,12 @@ h3, p {
     text-align: center;
 }
 
-a {
-    color: black;
-}
-
-.contact-content {
-    margin-top: 50px;
+body, a {
+    color: #7b6565;
 }
 
 section {
+    margin-top: 80px;
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
@@ -21,4 +18,39 @@ section {
 .block-content {
     margin: 0 0 70px;
     overflow: hidden;
+}
+
+/* Social Media */
+footer {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .fa-twitter,
+  .fa-instagram,
+  .fa-github,
+  .fa-linkedin {
+    color: #b3747b;
+    font-size: 30px;
+    padding: 16px;
+  }
+
+@media screen and (min-width: 900px) {
+    footer {
+        list-style-type: none;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      .fa-twitter,
+      .fa-instagram,
+      .fa-github,
+      .fa-linkedin {
+        color: #b3747b;
+        font-size: 30px;
+        padding: 16px;
+      }
 }
