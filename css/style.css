@@ -1,16 +1,16 @@
 /* Intro */
 .introInfo {
   color: white;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .introH1 {
   color: white;
-  font-size: 64px;
+  font-size: 32px;
 }
 
 .intro-text {
-  margin-top: 8%;
+  margin-top: 2%;
 }
 
 /* Social Media */
@@ -43,10 +43,10 @@ body {
   background-color: #b3747b;
   padding: 0;
   background: url(../images/landscapejessfoxy.jpg);
-  background-position: -40px 188px;
+  background-position: -144px 67px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 188%;
+  background-size: cover;
 }
 
 html {
@@ -58,9 +58,6 @@ html {
 i.fa {
   color: #b3747b;
 }
-.introH1 {
-  font-size: 48px;
-}
 
 footer {
   display: flex;
@@ -71,7 +68,6 @@ footer {
 
 .intro-text {
   width: 100%;
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -81,8 +77,7 @@ footer {
 /* Media */
 @media screen and (min-width: 375px) {
     body {
-        background-position: -88px 188px;
-        background-size: 250%;
+        background-position: -190px 69px;
       }
 }
 
@@ -94,7 +89,7 @@ footer {
 
 @media screen and (min-width: 768px) {
     body {
-      background-position: -168px -8px;
+      background-position: -168px 0px;
     }
 
     .intro-text {
@@ -104,7 +99,7 @@ footer {
 
 @media screen and (min-width: 900px) {
   body {
-    background-position: 0px 32px;
+    background-position: 0px 10px;
     background-size: cover;
   }
 
@@ -130,13 +125,13 @@ footer {
     font-size: 48px;
 }
 
-  .row,
-  .full-height-container,
-  .intro {
-    height: 100%;
-  }
-
   .social-icon-container {
     margin-right: 8px;
   }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+      background-position: 0px 0px;
+    }
 }
