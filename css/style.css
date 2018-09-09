@@ -86,10 +86,21 @@ footer {
       }
 }
 
+@media screen and (min-width: 400px) {
+    body {
+    background-position: -88px 80px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     body {
       background-position: -168px -8px;
     }
+
+    .intro-text {
+        align-items: flex-end;
+    }
+}
 
 @media screen and (min-width: 900px) {
   body {
@@ -108,12 +119,16 @@ footer {
 
   .intro-text {
     width: 100%;
-    margin-top: 0;
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
+
+  .introH1 {
+    font-size: 48px;
+}
 
   .row,
   .full-height-container,
