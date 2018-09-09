@@ -6,13 +6,21 @@
 .planit {
     display: block;
     padding-top: 25px;
-    width: 56%;
+    width: 48%;
     border-radius: 4px;
     margin-left: 24px;
   }
 
-p {
+.planit-par {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
+    color: #7b6565;
+    margin-right: 24px;
 }
 
+.planit-title {
+    text-align: center;
+    padding-top: 50px;
+    color: #7b6565;
+    margin-right: 24px;
+}
