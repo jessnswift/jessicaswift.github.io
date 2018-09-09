@@ -1,12 +1,18 @@
 .dev-icons, .section-title {
-    color: #e9c4c8;
+    color: #b3747b;
+    size: 50px;
 }
 
 .planit {
     display: block;
     padding-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
     width: 56%;
     border-radius: 4px;
+    margin-left: 24px;
   }
+
+p {
+    text-align: center;
+    padding-top: 50px;
+}
+
